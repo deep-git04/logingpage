@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow:8px 12px 15px grey;
+}
+form h1{
+    text-align: center;
+    margin: 20px;
+}
+form div{
+    margin: 8px;
+    display: flex;
+    flex-direction:column;
+}
+
+form input{
+    border-radius: 6px;
+    height: 40px;
+}
+
+.submit_btn #btn{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(78, 139, 78);
+    font-size: large;
+    color: white;
+}
+.text-message{
+    color: red;
+    font-size: 17px;
+}
+.C_msg{
+    color: green;
+}
+
