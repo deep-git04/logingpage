@@ -5,7 +5,7 @@
         const User =document.getElementById("username").value;// get username from user input username
         const Pass =document.getElementById("Password").value;// get password form user input password
 
-        if( User == "Username" && Pass == "Pass"){ // compare user detalis for ture using &
+        if( User == "Username" && Pass == "Password"){ // compare user detalis for ture using &
             alert("Login successful");
           
         }
