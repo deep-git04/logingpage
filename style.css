@@ -37,9 +37,12 @@ form input{
 .submit_btn #btn{
     border: none;
     border-radius: 12px;
-    background-color: rgb(78, 139, 78);
+    border:2px solid rgb(78, 139, 78);
     font-size: large;
     color: white;
+}
+.submit_btn #btn{
+    background-color: rgb(78, 139, 78);
 }
 .text-message{
     color: red;
