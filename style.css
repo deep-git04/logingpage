@@ -41,7 +41,7 @@ form input{
     font-size: large;
     color: white;
 }
-.submit_btn #btn{
+.submit_btn #btn:hover{
     background-color: rgb(78, 139, 78);
 }
 .text-message{
