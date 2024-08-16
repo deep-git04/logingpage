@@ -39,9 +39,11 @@ form input{
     border-radius: 12px;
     border:2px solid rgb(78, 139, 78);
     font-size: large;
-    color: white;
+    color: rgb(78, 139, 78);
+
 }
 .submit_btn #btn:hover{
+    color: white;
     background-color: rgb(78, 139, 78);
 }
 .text-message{
